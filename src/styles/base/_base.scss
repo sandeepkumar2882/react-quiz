@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $quicksand;
+}
+
+.valid {
+    color: $green;
+}
+
+.warning {
+    color: $orange !important;
+}
+
+.invalid {
+    color: $red !important;
+}
+
+.toast-invalid {
+    background-color: $error-text !important;
+    border-radius: 5px !important;
+    color: $off-white !important;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.toast-valid {
+    background-color: $success-text !important;
+    border-radius: 5px !important;
+    color: $off-white !important;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.disable {
+    background-color: #ccc !important;
+    box-shadow: none !important;
+    opacity: 0.9 !important;
+    pointer-events: none;
+}
